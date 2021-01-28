@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\kalu\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express mongoose body-barser cors
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\nodejs\;C:\Users\kalu;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;mongodb-shell-windows-x86_64-4.4.2.zip\mongodb-win32-x86_64-windows-4.4.2 - ZIP archive;C:\Users\kalu\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\kalu\AppData\Local\Programs\Python\Python36-32\;C:\Users\kalu\Desktop\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\kalu\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm 2020.1\bin;C:\Users\kalu\AppData\Local\GitHubDesktop\bin;C:\Users\kalu\AppData\Roaming\Composer\vendor\bin;C:\xampp\php
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.16.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/body-barser: Not found
+      at Request.params.callback [as _callback] (C:\Users\kalu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\kalu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:310:20)
+      at Request.<anonymous> (C:\Users\kalu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:310:20)
+      at IncomingMessage.<anonymous> (C:\Users\kalu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:416:28)
+      at IncomingMessage.emit (events.js:322:22)
+      at endReadableNT (_stream_readable.js:1187:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "mern-stack-redux-record",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "ufere kalu",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
